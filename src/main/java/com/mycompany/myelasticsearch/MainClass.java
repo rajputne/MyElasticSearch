@@ -5,13 +5,12 @@
  */
 package com.mycompany.myelasticsearch;
 
-import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.math.BigDecimal;
 import java.net.InetAddress;
-import java.net.UnknownHostException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import org.apache.tika.Tika;
@@ -34,9 +33,9 @@ public class MainClass {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) throws UnknownHostException {
-        // TODO code application logic here
+    public static void main(String[] args) {
 
+        // TODO code application logic here
         Tika tika = new Tika();
 
         String fileEntry = "C:\\Contract\\Contract1.pdf";
@@ -106,7 +105,7 @@ public class MainClass {
         System.out.println("---------------------------------------------------Content---------");
         count = 1;
         StringBuffer contentOutput = new StringBuffer();
-        
+
         String splitContent[] = c.split("ARTICLE|Article");
         for (String o : splitContent) {
             char input = o.charAt(1);
@@ -123,12 +122,53 @@ public class MainClass {
             }
 
         }
-        
+
         String tableOfContent[];
-        tableOfContent=tocOutput.toString().split("JigarAnkitNeeraj");
-        
+        tableOfContent = tocOutput.toString().split("JigarAnkitNeeraj");
+
         String splitContectsAccordingToArticles[];
-        splitContectsAccordingToArticles=contentOutput.toString().split("MyArticlesSeparated");
+        splitContectsAccordingToArticles = contentOutput.toString().split("MyArticlesSeparated");
+        int numberOfArticle = splitContectsAccordingToArticles.length;
+
+        int countArticle = 1;
+        Double toBeTruncated = new Double("" + countArticle + ".00");
+
+        String section = "Section";
+        toBeTruncated += 0.01;
+        String sectionStart = section + " " + toBeTruncated;
+        System.out.println(toBeTruncated);
+        String sectionEnd;
+        StringBuffer sectionOutput = new StringBuffer();
+        int skipFirstArtcile = 0;
+        for (String article : splitContectsAccordingToArticles) {
+
+            if (skipFirstArtcile != 0) {
+                int start = article.indexOf(sectionStart);
+                toBeTruncated += 0.01;
+                sectionEnd = section + " " + toBeTruncated;
+
+                int end = article.indexOf(sectionEnd);
+                while (end != -1) {
+                    sectionOutput.append(" \nMySectionsIndexed\n ");
+                    sectionOutput.append(article.substring(start, end));
+
+                    start = end;
+                    toBeTruncated += 0.01;
+                    sectionEnd = section + " " + toBeTruncated;
+                    System.out.println("SectionEnd "+sectionEnd);
+                    end = article.indexOf(sectionEnd);
+                    System.out.println("End section index "+end);
+                }
+                end = article.length()-1;
+                sectionOutput.append(" \nMySectionsIndexed\n ");
+                sectionOutput.append(article.substring(start, end));
+                
+                
+
+            }
+            skipFirstArtcile++;
+        }
+
         try {
             FileWriter file = new FileWriter("TableOfIndex.txt");
             file.write(tocOutput.toString());
@@ -138,7 +178,7 @@ public class MainClass {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        
+
         try {
             FileWriter file = new FileWriter("ContextsArticles.txt");
             file.write(contentOutput.toString());
@@ -148,22 +188,9 @@ public class MainClass {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        
-        
+
         System.out.println(outputArrayString);
 
-        Client client = TransportClient.builder().build()
-                .addTransportAddress(new InetSocketTransportAddress(InetAddress.getByName("192.168.0.1"), 9200))
-                .addTransportAddress(new InetSocketTransportAddress(InetAddress.getByName("192.168.0.1"), 9200));
-
-        try {
-            DocumentReader.parseString(docText, client);
-        } catch (FileNotFoundException ex) {
-            Logger.getLogger(MainClass.class.getName()).log(Level.SEVERE, null, ex);
-        }
-
-// on shutdown
-        client.close();
     }
 
 }
