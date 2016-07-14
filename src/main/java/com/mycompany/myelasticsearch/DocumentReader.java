@@ -120,6 +120,9 @@ public class DocumentReader {
     public static String parseString(String documentText, Client client) throws FileNotFoundException {
         System.out.println("----INDEXOF----");
         int definedTermsStart = documentText.indexOf("ARTICLE 1");
+        
+        
+        
         int definedTermsEnd = documentText.indexOf("ARTICLE 2");
 
         int start = documentText.indexOf('“', definedTermsStart);
