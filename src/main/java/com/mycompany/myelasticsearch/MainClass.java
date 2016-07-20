@@ -159,8 +159,9 @@ public class MainClass {
                     sectionOutput.append(" \nMySectionsIndexed\n ");
                     if (start < end) {
                         sectionOutput.append(article.substring(start, end));
+                        obj.put(sectionStart, article.substring(start, end));
                     }
-                  //  obj.put(sectionEnd, article.substring(start, end));
+
                     start = end;
                     toBeTruncated += 0.01;
                     sectionEnd = section + " " + f.format(toBeTruncated);
@@ -173,6 +174,7 @@ public class MainClass {
                 end = article.length() - 1;
                 sectionOutput.append(" \nMySectionsIndexed\n ");
                 sectionOutput.append(article.substring(start, end));
+                obj.put(sectionStart, article.substring(start, end));
                 DecimalFormat ff = new DecimalFormat("##");
                 toBeTruncated = Double.valueOf(ff.format(toBeTruncated)) + 1.01;
             }
@@ -189,6 +191,15 @@ public class MainClass {
         }
         try {
             FileWriter file = new FileWriter("ContextsArticles.txt");
+            file.write(obj.toString());
+            file.flush();
+            file.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        
+        try {
+            FileWriter file = new FileWriter("ContextsArticlesTest.txt");
             file.write(sectionOutput.toString());
             file.flush();
             file.close();
