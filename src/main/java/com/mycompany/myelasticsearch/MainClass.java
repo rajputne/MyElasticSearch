@@ -11,6 +11,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.math.BigDecimal;
 import java.net.InetAddress;
+import java.text.DecimalFormat;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import org.apache.tika.Tika;
@@ -23,6 +24,7 @@ import org.apache.tika.metadata.Metadata;
 import org.apache.tika.parser.ParseContext;
 import org.apache.tika.parser.pdf.PDFParser;
 import org.apache.tika.sax.BodyContentHandler;
+import org.json.JSONObject;
 
 /**
  *
@@ -120,7 +122,6 @@ public class MainClass {
                 //outputArrayString += "Count" + count + o;
                 contentOutput.append(o);
             }
-
         }
 
         String tableOfContent[];
@@ -135,61 +136,65 @@ public class MainClass {
 
         String section = "Section";
         toBeTruncated += 0.01;
-        String sectionStart = section + " " + toBeTruncated;
+
         System.out.println(toBeTruncated);
         String sectionEnd;
         StringBuffer sectionOutput = new StringBuffer();
         int skipFirstArtcile = 0;
-        for (String article : splitContectsAccordingToArticles) {
+        JSONObject obj = new JSONObject();
 
+        obj.put("Author", "App Shah");
+        for (String article : splitContectsAccordingToArticles) {
             if (skipFirstArtcile != 0) {
+                DecimalFormat f = new DecimalFormat("##.00");
+                String sectionStart = section + " " + f.format(toBeTruncated);
                 int start = article.indexOf(sectionStart);
                 toBeTruncated += 0.01;
-                sectionEnd = section + " " + toBeTruncated;
+
+                System.out.println();
+                sectionEnd = section + " " + f.format(toBeTruncated);
 
                 int end = article.indexOf(sectionEnd);
                 while (end != -1) {
                     sectionOutput.append(" \nMySectionsIndexed\n ");
-                    sectionOutput.append(article.substring(start, end));
-
+                    if (start < end) {
+                        sectionOutput.append(article.substring(start, end));
+                    }
+                  //  obj.put(sectionEnd, article.substring(start, end));
                     start = end;
                     toBeTruncated += 0.01;
-                    sectionEnd = section + " " + toBeTruncated;
-                    System.out.println("SectionEnd "+sectionEnd);
+                    sectionEnd = section + " " + f.format(toBeTruncated);
+                    System.out.println("SectionEnd " + sectionEnd);
+
                     end = article.indexOf(sectionEnd);
-                    System.out.println("End section index "+end);
+
+                    System.out.println("End section index " + end);
                 }
-                end = article.length()-1;
+                end = article.length() - 1;
                 sectionOutput.append(" \nMySectionsIndexed\n ");
                 sectionOutput.append(article.substring(start, end));
-                
-                
-
+                DecimalFormat ff = new DecimalFormat("##");
+                toBeTruncated = Double.valueOf(ff.format(toBeTruncated)) + 1.01;
             }
             skipFirstArtcile++;
-        }
 
+        }
         try {
             FileWriter file = new FileWriter("TableOfIndex.txt");
             file.write(tocOutput.toString());
             file.flush();
             file.close();
-
         } catch (IOException e) {
             e.printStackTrace();
         }
-
         try {
             FileWriter file = new FileWriter("ContextsArticles.txt");
-            file.write(contentOutput.toString());
+            file.write(sectionOutput.toString());
             file.flush();
             file.close();
-
         } catch (IOException e) {
             e.printStackTrace();
         }
-
-        System.out.println(outputArrayString);
 
     }
 
