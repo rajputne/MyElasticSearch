@@ -41,7 +41,7 @@ public class MainClass {
         // TODO code application logic here
         Tika tika = new Tika();
 
-        String fileEntry = "C:\\Contract\\Contract1.pdf";
+        String fileEntry = "C:\\Contract\\Contract3.pdf";
         String filetype = tika.detect(fileEntry);
         System.out.println("FileType " + filetype);
         BodyContentHandler handler = new BodyContentHandler(-1);
@@ -75,7 +75,7 @@ public class MainClass {
         // outputArray = docText.split("Article|Section|Borrower|Agents");
 
         //int definedTermsStart = docText.indexOf("ARTICLE 1");
-        int definedTermsEnd = docText.indexOf("SCHEDULES:");
+        int definedTermsEnd = docText.indexOf("SCHEDULES");
 
         //int start = docText.indexOf('“', definedTermsStart);
         //int end = docText.indexOf('”', start);
@@ -103,7 +103,6 @@ public class MainClass {
             outputArrayString += "Count" + count + o;
             count++;
             System.out.println();
-
         }
         System.out.println("---------------------------------------------------Content---------");
         count = 1;
@@ -156,7 +155,7 @@ public class MainClass {
 
                 int end = article.indexOf(sectionEnd);
                 while (end != -1) {
-                    sectionStart = section + " " + f.format(toBeTruncated-0.01);
+                    sectionStart = section + " " + f.format(toBeTruncated - 0.01);
                     sectionOutput.append(" \n Key:" + sectionStart);
                     if (start < end) {
                         sectionOutput.append("\n Value:" + article.substring(start, end));
@@ -167,22 +166,34 @@ public class MainClass {
                     toBeTruncated += 0.01;
                     sectionEnd = section + " " + f.format(toBeTruncated);
                     System.out.println("SectionEnd " + sectionEnd);
-
-                    end = article.indexOf(sectionEnd);
+                    try {
+                        end = article.indexOf(sectionEnd);
+                    } catch (Exception e) {
+                        System.out.print(e.getMessage());
+                    }
 
                     System.out.println("End section index " + end);
                 }
                 end = article.length() - 1;
                 sectionOutput.append(" \n Key:" + sectionStart);
-                sectionOutput.append(" \n Value:" + article.substring(start, end));
-                obj.put(sectionStart, article.substring(start, end).replaceAll("\\r\\n|\\r|\\n", " "));
+                try {
+                    sectionOutput.append(" \n Value:" + article.substring(start, end));
+                    obj.put(sectionStart, article.substring(start, end).replaceAll("\\r\\n|\\r|\\n", " "));
+                } catch (Exception e) {
+                    //What if Article has No Sections
+                    String sectionArticle="ARTICLE";
+                    
+
+                    System.out.println(e.getMessage());
+                }
+
                 DecimalFormat ff = new DecimalFormat("##");
                 toBeTruncated = Double.valueOf(ff.format(toBeTruncated)) + 1.01;
             }
             skipFirstArtcile++;
 
         }
-        
+
         try {
             FileWriter file = new FileWriter("TableOfIndex.txt");
             file.write(tocOutput.toString());
@@ -192,7 +203,7 @@ public class MainClass {
             e.printStackTrace();
         }
         try {
-            FileWriter file = new FileWriter("Contract1_JSONFile.json");
+            FileWriter file = new FileWriter("Contract3_JSONFile.txt");
             file.write(obj.toString());
             file.flush();
             file.close();

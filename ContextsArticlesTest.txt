@@ -1,6 +1,6 @@
  
-MySectionsIndexed
- Section 1.01. Defined Terms. As used in this Agreement, the following terms shall have the following 
+ Key:Section 1.01
+ Value:Section 1.01. Defined Terms. As used in this Agreement, the following terms shall have the following 
 
 meanings:  
 
@@ -2086,8 +2086,8 @@ withdrawal from such Multiemployer Plan, as such terms are defined in Part I of 
 
  
  
-MySectionsIndexed
- Section 1.02.   Accounting Terms.   All accounting terms used in this Agreement shall be applied on a 
+ Key:Section 1.02
+ Value:Section 1.02.   Accounting Terms.   All accounting terms used in this Agreement shall be applied on a 
 
 consolidated basis for any Person, if any, unless otherwise specifically indicated herein. Any accounting terms not 
 
@@ -2123,8 +2123,8 @@ Covenant (or such financial definition) is amended.
 
  
  
-MySectionsIndexed
- Section 1.03.   Rules of Construction.   The words “herein”, “hereof” and “hereunder” and other words of 
+ Key:Section 1.02 
+ Value:Section 1.03.   Rules of Construction.   The words “herein”, “hereof” and “hereunder” and other words of 
 
 similar import refer to this Agreement as a whole and not to any particular Section or subsection. Reference herein to 
 
@@ -2178,14 +2178,14 @@ such fact or circumstance.
 
  
  
-MySectionsIndexed
- Section 2.01.   Commitments.   (a) Each Lender severally agrees, on the terms and conditions hereinafter set 
+ Key:Section 2.01
+ Value:Section 2.01.   Commitments.   (a) Each Lender severally agrees, on the terms and conditions hereinafter set 
 
 forth, and upon satisfaction of the applicable conditions set forth in  4, to make Loans to the Borrower at the 
 
 Borrower’s request in accordance with  
-MySectionsIndexed
- Section 2.02 on the Closing Date, in an aggregate amount not to exceed the 
+ Key:Section 2.02
+ Value:Section 2.02 on the Closing Date, in an aggregate amount not to exceed the 
 
 amount specified opposite such Lender’s name under the column “Commitment” on Schedule I hereto (as such amount 
 
@@ -2251,8 +2251,8 @@ Borrowing when such Loan, as a result of such failure, is not made on such date.
 
  
  
-MySectionsIndexed
- Section 2.03.   Fees.  (a) Commitment Fee.   On the Closing Date, the Borrower shall pay to Athyrium (or to 
+ Key:Section 2.03
+ Value:Section 2.03.   Fees.  (a) Commitment Fee.   On the Closing Date, the Borrower shall pay to Athyrium (or to 
 
 the Administrative Agent for the account of Athyrium), a commitment fee equal to 1.00% of the aggregate principal 
 
@@ -2276,10 +2276,9 @@ following the acceleration of the Loans pursuant to  7.
 
  
  
-MySectionsIndexed
-  
-MySectionsIndexed
- Section 2.05 or 
+ Key:Section 2.04 
+ Key:Section 2.05
+ Value:Section 2.05 or 
 
 following the acceleration of the Loans pursuant to  7.  
 
@@ -2487,8 +2486,8 @@ may be reborrowed.
 
  
  
-MySectionsIndexed
- Section 2.06.  Interest Rates and Payment Dates.  (a) Except as provided in Section 2.06(b), (x) each LIBOR 
+ Key:Section 2.06
+ Value:Section 2.06.  Interest Rates and Payment Dates.  (a) Except as provided in Section 2.06(b), (x) each LIBOR 
 
 Rate Loan shall bear interest on the unpaid principal amount thereof from and including the date of such LIBOR Rate 
 
@@ -2531,8 +2530,8 @@ to 2% per annum above the rate per annum that would be required to be paid at su
 
  
  
-MySectionsIndexed
- Section 2.07.  Payments and Computations.  (a) The Borrower shall make each payment hereunder and under 
+ Key:Section 2.07
+ Value:Section 2.07.  Payments and Computations.  (a) The Borrower shall make each payment hereunder and under 
 
 the Notes, irrespective of any right of counterclaim or set-off, not later than 2:00 p.m. on the day when due in U.S. 
 
@@ -2543,8 +2542,8 @@ received by the Administrative Agent after such time being deemed to have been r
 Business Day. The Administrative Agent will promptly thereafter cause to be distributed like funds relating to the 
 
 payment of principal or interest or fees ratably (other than amounts payable pursuant to  
-MySectionsIndexed
- Section 2.08) to the Lenders 
+ Key:Section 2.08
+ Value:Section 2.08) to the Lenders 
 
 for the account of their respective Lending Offices, and like funds relating to the payment of any other amount payable 
 
@@ -2865,8 +2864,8 @@ to do so.
 
  
  
-MySectionsIndexed
- Section 2.09.  Lender’s Obligation to Mitigate.  If the Borrower is required to pay any additional amount to 
+ Key:Section 2.09
+ Value:Section 2.09.  Lender’s Obligation to Mitigate.  If the Borrower is required to pay any additional amount to 
 
 any Lender or any Governmental Authority for the account of any Lender pursuant to Section 2.08, then such Lender 
 
@@ -2884,8 +2883,8 @@ connection with any such designation or assignment.
 
  
  
-MySectionsIndexed
- Section 2.10.  Sharing of Payments, Etc.  If any Lender shall obtain at any time any payment (whether 
+ Key:Section 2.10
+ Value:Section 2.10.  Sharing of Payments, Etc.  If any Lender shall obtain at any time any payment (whether 
 
 voluntary, involuntary, through the exercise of any right of setoff, or otherwise) on account of the Loans owing to it 
 
@@ -2915,8 +2914,8 @@ or a Lender, as the case may be, in the amount of such participation.
 
  
  
-MySectionsIndexed
- Section 2.11.   Warrants.  (a) In connection with the borrowing of the Loans by the Borrower and as an 
+ Key:Section 2.11
+ Value:Section 2.11.   Warrants.  (a) In connection with the borrowing of the Loans by the Borrower and as an 
 
 inducement to the Lenders to make the Loans, the Borrower has agreed to authorize the issuance to the Warrantholders 
 
@@ -2984,8 +2983,8 @@ jurisdiction) and for all other financial accounting purposes.
 
  
  
-MySectionsIndexed
- Section 2.12.  Illegality.  If any Lender determines that any Law has made it unlawful, or that any 
+ Key:Section 2.12
+ Value:Section 2.12.  Illegality.  If any Lender determines that any Law has made it unlawful, or that any 
 
 Governmental Authority has asserted that it is unlawful, for any Lender or its applicable Lending Office to make, 
 
@@ -3029,8 +3028,8 @@ amount so prepaid or converted together with the Prepayment Premium.
 
  
  
-MySectionsIndexed
- Section 2.13. Inability to Determine Rates. If in connection with any request for a LIBOR Rate Loan or a 
+ Key:Section 2.13
+ Value:Section 2.13. Inability to Determine Rates. If in connection with any request for a LIBOR Rate Loan or a 
 
 continuation thereof, (a) the Administrative Agent determines that (i) Dollar deposits are not being offered to banks 
 
@@ -3089,8 +3088,8 @@ notice thereof.
 
  
  
-MySectionsIndexed
- Section 2.14.   Increased Costs to Such Day; Reserves on Loans. (a) Increased Costs Generally. If any Change 
+ Key:Section 2.14
+ Value:Section 2.14.   Increased Costs to Such Day; Reserves on Loans. (a) Increased Costs Generally. If any Change 
 
 in Law shall:  
 
@@ -3186,8 +3185,8 @@ the period of retroactive effect thereof).
 
  
  
-MySectionsIndexed
- Section 2.15.   Compensation for Losses. Upon demand of any Lender (with a copy to the Administrative 
+ Key:Section 2.15
+ Value:Section 2.15.   Compensation for Losses. Upon demand of any Lender (with a copy to the Administrative 
 
 Agent) from time to time, the Borrower shall promptly compensate such Lender for and hold such Lender harmless 
 
@@ -3234,8 +3233,8 @@ or not such Loan was in fact so funded.
 
  
  
-MySectionsIndexed
- Section 2.16.   Replacement of Lenders.   If any Lender requests compensation under Section 2.14, or if the 
+ Key:Section 2.16
+ Value:Section 2.16.   Replacement of Lenders.   If any Lender requests compensation under Section 2.14, or if the 
 
 Borrower is required to pay any Indemnified Taxes or additional amounts to any Lender or any Governmental 
 
@@ -3247,8 +3246,8 @@ in accordance with Section 9.13.
 
  
  
-MySectionsIndexed
- Section 2.17.   Survival.   Each party’s obligations under Sections 2.08, 2.09, 2.12, 2.13, 2.14, 2.15 and 2.16 
+ Key:Section 2.16 
+ Value:Section 2.17.   Survival.   Each party’s obligations under Sections 2.08, 2.09, 2.12, 2.13, 2.14, 2.15 and 2.16 
 
 shall survive termination of the Commitments, repayment of all Loan Obligations hereunder and under the other Loan 
 
@@ -3260,8 +3259,8 @@ Documents, and resignation of the Administrative Agent.
 
  
  
-MySectionsIndexed
- Section 3.01.   Existence and Power.   The Borrower and each of its Subsidiaries is a corporation, limited 
+ Key:Section 3.01
+ Value:Section 3.01.   Existence and Power.   The Borrower and each of its Subsidiaries is a corporation, limited 
 
 liability company or limited partnership duly organized, validly existing and in good standing under the laws of its 
 
@@ -3290,8 +3289,8 @@ the terms hereof and thereof.
     
 
  
-MySectionsIndexed
- Section 3.02.    Authority.   The execution, delivery and performance by the Borrower and each of its 
+ Key:Section 3.02
+ Value:Section 3.02.    Authority.   The execution, delivery and performance by the Borrower and each of its 
 
 Subsidiaries of this Agreement, the Notes, the Warrants and the other Loan Documents to which it is a party and the 
 
@@ -3305,8 +3304,8 @@ and, if necessary such Person’s shareholders, members or partners, as the case m
 
  
  
-MySectionsIndexed
- Section 3.03.    Binding Effect.   Each of this Agreement, the Notes, the Warrants and the other Loan 
+ Key:Section 3.03
+ Value:Section 3.03.    Binding Effect.   Each of this Agreement, the Notes, the Warrants and the other Loan 
 
 Documents has been duly executed and delivered by the Borrower and each of its Subsidiaries party thereto and each 
 
@@ -3324,8 +3323,8 @@ general principles of equity whether applied in equity or at law.
 
  
  
-MySectionsIndexed
- Section 3.04.    Capital Stock; Subsidiaries.   (a) As of the Closing Date, after giving effect to the 
+ Key:Section 3.04
+ Value:Section 3.04.    Capital Stock; Subsidiaries.   (a) As of the Closing Date, after giving effect to the 
 
 Transactions, the authorized and issued shares of each class of Capital Stock of the Borrower and each of its 
 
@@ -3377,8 +3376,8 @@ warrants or other rights to subscribe for, purchase or acquire any of its Capita
 
  
  
-MySectionsIndexed
- Section 3.05.   Business Operations and Other Information;   Financial Condition; No Material Adverse 
+ Key:Section 3.05
+ Value:Section 3.05.   Business Operations and Other Information;   Financial Condition; No Material Adverse 
 
 Effect. (a) The Borrower has heretofore delivered or caused to be delivered to each Lender copies of the Audited 
 
@@ -3462,8 +3461,8 @@ Default or Event of Default has occurred and is continuing.
 
 
  
-MySectionsIndexed
- Section 3.06.   Litigation; No Violation of Governmental Orders or Laws.    (a) Except as set forth on 
+ Key:Section 3.06
+ Value:Section 3.06.   Litigation; No Violation of Governmental Orders or Laws.    (a) Except as set forth on 
 
 Schedule 3.06, there are no actions, suits or proceedings pending, or, to the knowledge of the Borrower, threatened 
 
@@ -3493,8 +3492,8 @@ could reasonably be expected to have, a Material Adverse Effect.
 
  
  
-MySectionsIndexed
- Section 3.07.   No Conflicts with Agreements, Etc.  Neither the execution and delivery by the Borrower and 
+ Key:Section 3.07
+ Value:Section 3.07.   No Conflicts with Agreements, Etc.  Neither the execution and delivery by the Borrower and 
 
 its Subsidiaries of this Agreement, the Notes or any of the other Loan Documents to which it is a party, nor the offering, 
 
@@ -3524,8 +3523,8 @@ any such Subsidiary or any of their respective assets are subject.
 
  
  
-MySectionsIndexed
- Section 3.08.   Consents, Etc.   No consent, approval or authorization of or declaration, registration or filing 
+ Key:Section 3.08
+ Value:Section 3.08.   Consents, Etc.   No consent, approval or authorization of or declaration, registration or filing 
 
 with any Governmental Authority or any nongovernmental Person is required in connection with the execution or 
 
@@ -3547,8 +3546,8 @@ Effect.
 
  
  
-MySectionsIndexed
- Section 3.09.    Outstanding Indebtedness.   Schedule 6.01(a) sets forth a correct and complete list and brief 
+ Key:Section 3.09
+ Value:Section 3.09.    Outstanding Indebtedness.   Schedule 6.01(a) sets forth a correct and complete list and brief 
 
 description of all Indebtedness of the Borrower and its Subsidiaries (excluding any Indebtedness evidenced by the 
 
@@ -3562,8 +3561,8 @@ such Indebtedness.
 
  
  
-MySectionsIndexed
- Section 3.10.   Taxes.  The Borrower, and each Subsidiary of the Borrower, has timely filed all U.S. federal 
+ Key:Section 3.10
+ Value:Section 3.10.   Taxes.  The Borrower, and each Subsidiary of the Borrower, has timely filed all U.S. federal 
 
 and all material state, local and foreign tax returns, information returns and excise tax returns, forms and reports for 
 
@@ -3600,8 +3599,8 @@ thereof are adequately provided for on the relevant Person’s books and financial
 
  
  
-MySectionsIndexed
- Section 3.11.   Disclosure.   None of this Agreement nor any other document or certificate furnished to any 
+ Key:Section 3.11
+ Value:Section 3.11.   Disclosure.   None of this Agreement nor any other document or certificate furnished to any 
 
 Lender by or on behalf of the Borrower or any of its Subsidiaries in connection herewith (including the Financial 
 
@@ -3629,8 +3628,8 @@ that individually or in the aggregate have had, or could reasonably be expected 
 
  
  
-MySectionsIndexed
- Section 3.12.    Margin Regulations.   Neither the Borrower nor any of its Subsidiaries owns or intends to 
+ Key:Section 3.12
+ Value:Section 3.12.    Margin Regulations.   Neither the Borrower nor any of its Subsidiaries owns or intends to 
 
 acquire any “margin stock” as defined in Regulation U of the Board of Governors of the Federal Reserve System of 
 
@@ -3666,8 +3665,8 @@ in the aforesaid Regulation U.
 
  
  
-MySectionsIndexed
- Section 3.13.   Pension and Benefit Plans.   (a) Except as could not reasonably be expected to have a Material 
+ Key:Section 3.13
+ Value:Section 3.13.   Pension and Benefit Plans.   (a) Except as could not reasonably be expected to have a Material 
 
 Adverse Effect, with respect to each Employee Benefit Plan, each of the Borrower and its ERISA Affiliates is in 
 
@@ -3707,8 +3706,8 @@ assuming proper funding and administration of such foreign Pension Plans on an o
 
  
  
-MySectionsIndexed
- Section 3.14.     Labor Matters.   As of the date hereof and the Closing Date, there are no strikes, lockouts or 
+ Key:Section 3.14
+ Value:Section 3.14.     Labor Matters.   As of the date hereof and the Closing Date, there are no strikes, lockouts or 
 
 slowdowns against the Borrower or any Subsidiary pending or, to the knowledge the Borrower, threatened. The hours 
 
@@ -3735,8 +3734,8 @@ on the part of any union under any collective bargaining agreement to which the 
 
  
  
-MySectionsIndexed
- Section 3.15.   Possession of Franchises, Licenses, Etc.   Each of the Borrower and each of its Subsidiaries 
+ Key:Section 3.15
+ Value:Section 3.15.   Possession of Franchises, Licenses, Etc.   Each of the Borrower and each of its Subsidiaries 
 
 possesses all material franchises, certificates, licenses, permits, registrations, security clearances, designations, 
 
@@ -3750,8 +3749,8 @@ not, and could not reasonably be expected to have, a Material Adverse Effect.
 
  
  
-MySectionsIndexed
- Section 3.16.   Intellectual Property.   The Borrower and its Subsidiaries own or otherwise possess sufficient 
+ Key:Section 3.16
+ Value:Section 3.16.   Intellectual Property.   The Borrower and its Subsidiaries own or otherwise possess sufficient 
 
 rights to all trademarks, service marks, trade names, including all goodwill associated with any of the foregoing, 
 
@@ -3779,8 +3778,8 @@ Borrower, threatened against the Borrower or any of its Subsidiaries.
 
  
  
-MySectionsIndexed
- Section 3.17.   Use of Proceeds.   The proceeds from the Loans and the Warrants shall be used by the 
+ Key:Section 3.17
+ Value:Section 3.17.   Use of Proceeds.   The proceeds from the Loans and the Warrants shall be used by the 
 
 Borrower (i) to prepay in full the Manchester Seller Financing, (ii) to pay fees and expenses incurred in connection 
 
@@ -3788,8 +3787,8 @@ with the Transactions and (iii) for general corporate purposes consistent with t
 
  
  
-MySectionsIndexed
- Section 3.18.   OFAC; Anti-Corruption Laws.   Neither the Borrower, nor any of its Subsidiaries, nor, to the 
+ Key:Section 3.18
+ Value:Section 3.18.   OFAC; Anti-Corruption Laws.   Neither the Borrower, nor any of its Subsidiaries, nor, to the 
 
 knowledge of the Borrower and its Subsidiaries, any director, officer, employee, agent, affiliate or representative 
 
@@ -3813,8 +3812,8 @@ policies and procedures designed to promote and achieve compliance with such law
 
  
  
-MySectionsIndexed
- Section 3.19.   Status under Certain Laws.   Neither the Borrower nor any of its Subsidiaries is an “investment 
+ Key:Section 3.19
+ Value:Section 3.19.   Status under Certain Laws.   Neither the Borrower nor any of its Subsidiaries is an “investment 
 
 company” or a “person directly or indirectly controlled by or acting on behalf of an investment company” within the 
 
@@ -3822,8 +3821,8 @@ meaning of the Investment Company Act of 1940, as amended.
 
  
  
-MySectionsIndexed
- Section 3.20.   Ranking of Loans.   The Indebtedness represented by the Loans and the other Loan Obligations 
+ Key:Section 3.20
+ Value:Section 3.20.   Ranking of Loans.   The Indebtedness represented by the Loans and the other Loan Obligations 
 
 under the applicable Loan Documents of the Borrower and the other Loan Parties is intended to constitute senior 
 
@@ -3833,8 +3832,8 @@ outstanding senior in right of payment to, or pari passu with, all Indebtedness 
 
  
  
-MySectionsIndexed
- Section 3.21.   Solvency.   The Borrower and its Subsidiaries, taken as a whole, are Solvent on the Closing 
+ Key:Section 3.21
+ Value:Section 3.21.   Solvency.   The Borrower and its Subsidiaries, taken as a whole, are Solvent on the Closing 
 
 Date both before and after giving effect to the Transactions to be effected on the Closing Date and the application of 
 
@@ -3842,8 +3841,8 @@ the net proceeds of the Loans and the Warrants.
 
  
  
-MySectionsIndexed
- Section 3.22.     Restrictions on or Relating to Subsidiaries.   There does not exist any encumbrance or 
+ Key:Section 3.22
+ Value:Section 3.22.     Restrictions on or Relating to Subsidiaries.   There does not exist any encumbrance or 
 
 restriction on the ability of (x) any Subsidiary of the Borrower to pay dividends or make any other distributions on its 
 
@@ -3869,8 +3868,8 @@ payment of dividends to foreign shareholders.
 
  
  
-MySectionsIndexed
- Section 3.23.    Collateral Documents.   (a) On and after the Closing Date, the Security Agreement creates, 
+ Key:Section 3.23
+ Value:Section 3.23.    Collateral Documents.   (a) On and after the Closing Date, the Security Agreement creates, 
 
 as security for the Loan Obligations, a valid and enforceable perfected security interest in and Lien on all of the 
 
@@ -3922,8 +3921,8 @@ city or county in which the real property is located.
 
  
  
-MySectionsIndexed
- Section 3.24.    Environmental Matters.   (a) Except as would not reasonably be expected to have a Material 
+ Key:Section 3.24
+ Value:Section 3.24.    Environmental Matters.   (a) Except as would not reasonably be expected to have a Material 
 
 Adverse Effect:  
 
@@ -3994,8 +3993,8 @@ business entity which is, in whole or in part, a predecessor of the Borrower or 
 
  
  
-MySectionsIndexed
- Section 3.25.   Acquired License.   The Borrower has delivered to each Lender a complete and correct copy 
+ Key:Section 3.25
+ Value:Section 3.25.   Acquired License.   The Borrower has delivered to each Lender a complete and correct copy 
 
 of the Thiola License Agreement (including all schedules, exhibits, amendments, supplements and modifications 
 
@@ -4026,8 +4025,8 @@ rights of any other Person.
     
 
  
-MySectionsIndexed
- Section 3.26.    Ownership of Property; Liens.   The Borrower and each of the Guarantors has title in fee 
+ Key:Section 3.26
+ Value:Section 3.26.    Ownership of Property; Liens.   The Borrower and each of the Guarantors has title in fee 
 
 simple (or local law equivalent) to all of its owned Real Property, a valid leasehold interest in all of its leased Real 
 
@@ -4039,8 +4038,8 @@ As of the Closing Date, neither the Borrower nor any of its Subsidiaries owns in
 
  
  
-MySectionsIndexed
- Section 3.27.  Material Contracts.  As of the Closing Date (x) true, correct and complete copies of each 
+ Key:Section 3.26 
+ Value:Section 3.27.  Material Contracts.  As of the Closing Date (x) true, correct and complete copies of each 
 
 Material Contract has been delivered, or made available to, the Lenders and (y) each of the Material Contracts then in 
 
@@ -4067,8 +4066,8 @@ that are reasonably necessary for the operation of its business, without conflic
  
  
  
-MySectionsIndexed
- Section 4.01.   Closing Conditions.  The obligations of each Lender to make Loans on the Closing Date, and 
+ Key:Section 4.01 
+ Value:Section 4.01.   Closing Conditions.  The obligations of each Lender to make Loans on the Closing Date, and 
 
 each Warrantholder’s obligation to purchase and pay for the Warrants to be purchased by it hereunder on the Closing 
 
@@ -4349,8 +4348,8 @@ applicable “know your customer” and anti-money laundering rules and regulations,
  
  
  
-MySectionsIndexed
- Section 5.01.    Financial Statements and Information.   The Borrower shall furnish to the Lenders:  
+ Key:Section 5.01
+ Value:Section 5.01.    Financial Statements and Information.   The Borrower shall furnish to the Lenders:  
 
  
 63 
@@ -4604,8 +4603,8 @@ produced or generated by the Borrower or such Subsidiary using their commerciall
 
  
  
-MySectionsIndexed
- Section 5.02.   Inspection of Properties and Books. Each Lender and its designated representatives, shall have 
+ Key:Section 5.02
+ Value:Section 5.02.   Inspection of Properties and Books. Each Lender and its designated representatives, shall have 
 
 the right, at the Borrower’s expense (i) to review the books and records and visit and inspect the Collateral and any of 
 
@@ -4642,8 +4641,8 @@ business, assets, operations and prospects.
 
  
  
-MySectionsIndexed
- Section 5.03.   Payment of Principal, Prepayment Charge and Interest.   The Borrower shall duly and 
+ Key:Section 5.03
+ Value:Section 5.03.   Payment of Principal, Prepayment Charge and Interest.   The Borrower shall duly and 
 
 punctually pay the principal of, and interest on the Loans and shall timely pay and perform all other obligations in 
 
@@ -4655,8 +4654,8 @@ party.
 
  
  
-MySectionsIndexed
- Section 5.04.   Payment of Obligations and Taxes.   The Borrower shall, and shall cause each of its 
+ Key:Section 5.04
+ Value:Section 5.04.   Payment of Obligations and Taxes.   The Borrower shall, and shall cause each of its 
 
 Subsidiaries to, pay its Indebtedness and other obligations promptly and in accordance with their terms where the 
 
@@ -4680,8 +4679,8 @@ Returns required to be filed by it.
 
  
  
-MySectionsIndexed
- Section 5.05.    Maintenance of Existence; Compliance.   The Borrower shall and shall cause each of its 
+ Key:Section 5.05
+ Value:Section 5.05.    Maintenance of Existence; Compliance.   The Borrower shall and shall cause each of its 
 
 Subsidiaries to do or cause to be done all things necessary to (i) preserve, renew and keep in full force and effect its 
 
@@ -4735,8 +4734,8 @@ Subsidiary reasonably determines are not useful to its business.
 
  
  
-MySectionsIndexed
- Section 5.06.   Maintenance of Property; Insurance.   (a) The Borrower shall and shall cause each of its 
+ Key:Section 5.06
+ Value:Section 5.06.   Maintenance of Property; Insurance.   (a) The Borrower shall and shall cause each of its 
 
 Subsidiaries to do or cause to be done all things necessary to at all times maintain and preserve all property material 
 
@@ -4781,8 +4780,8 @@ acceptable.
 
  
  
-MySectionsIndexed
- Section 5.07.   Books and Records.   The Borrower shall and shall cause each of its Subsidiaries to keep 
+ Key:Section 5.07
+ Value:Section 5.07.   Books and Records.   The Borrower shall and shall cause each of its Subsidiaries to keep 
 
 proper books of record and account in which full,  
 
@@ -4799,8 +4798,8 @@ in relation to its business and activities.
 
  
  
-MySectionsIndexed
- Section 5.08.   Additional Collateral and Guarantors; Further Assurances.   (a) Upon the formation or 
+ Key:Section 5.08
+ Value:Section 5.08.   Additional Collateral and Guarantors; Further Assurances.   (a) Upon the formation or 
 
 acquisition of any new direct or indirect domestic Wholly Owned Subsidiary of the Borrower (other than an Excluded 
 
@@ -4907,8 +4906,8 @@ the definitive documentation relating to the applicable Non-Recourse Indebtednes
 
  
  
-MySectionsIndexed
- Section 5.09.   Maintenance of Licenses; Material Contracts.   The Borrower shall comply in all respects 
+ Key:Section 5.09
+ Value:Section 5.09.   Maintenance of Licenses; Material Contracts.   The Borrower shall comply in all respects 
 
 with, and preserve and maintain, and cause each of its Subsidiaries to comply in all respects with, and preserve and 
 
@@ -4937,8 +4936,8 @@ individually or in the aggregate, could not be reasonably likely to have a Mater
     
 
  
-MySectionsIndexed
- Section 5.10.   Employee Benefits.   The Borrower shall (a) comply in all material respects with the provisions 
+ Key:Section 5.10
+ Value:Section 5.10.   Employee Benefits.   The Borrower shall (a) comply in all material respects with the provisions 
 
 of ERISA and the Code applicable to employee benefit plans as defined in Section 3(3) of ERISA and the laws 
 
@@ -4964,8 +4963,8 @@ Department of Labor, furnish to the Lenders copies of each Schedule SB (Actuaria
 
  
  
-MySectionsIndexed
- Section 5.11.  Quarterly Lender Calls.   Upon the request of the Administrative Agent or the Majority 
+ Key:Section 5.11
+ Value:Section 5.11.  Quarterly Lender Calls.   Upon the request of the Administrative Agent or the Majority 
 
 Lenders, the Borrower shall participate in quarterly conference calls with the Lenders, in each case at such times as 
 
@@ -4973,8 +4972,8 @@ may be agreed to by the Borrower and the Administrative Agent or the Majority Le
 
  
  
-MySectionsIndexed
- Section 5.12.   Control Accounts.   Within 10 Business Days after the Closing Date (or such longer period as 
+ Key:Section 5.12
+ Value:Section 5.12.   Control Accounts.   Within 10 Business Days after the Closing Date (or such longer period as 
 
 the Majority Lenders, in their sole discretion, shall agree), the Borrower shall cause, and shall cause each of its 
 
@@ -4986,8 +4985,8 @@ with respect to any Excluded Account holding proceeds of any assets of such Acqu
 
  
  
-MySectionsIndexed
- Section 5.13.    Information Regarding Loan Parties.   (a) The Borrower shall furnish to the Administrative 
+ Key:Section 5.13
+ Value:Section 5.13.    Information Regarding Loan Parties.   (a) The Borrower shall furnish to the Administrative 
 
 Agent and the Lenders prompt written notice of any change (i) in any Loan Party’s corporate name, (ii) in the 
 
@@ -5003,8 +5002,8 @@ a valid, legal and perfected security interest in all the Collateral.
 
  
  
-MySectionsIndexed
- Section 5.14.     Intellectual Property.   The Borrower shall, and shall cause each of its Subsidiaries to, at its 
+ Key:Section 5.13 
+ Value:Section 5.14.     Intellectual Property.   The Borrower shall, and shall cause each of its Subsidiaries to, at its 
 
 sole cost and expense (a) not take any act or omit to take any commercially reasonable act whereby any material IP 
 
@@ -5034,8 +5033,8 @@ business judgment and (c) take commercially reasonable steps to protect the secr
  
  
  
-MySectionsIndexed
- Section 6.01.   Indebtedness.  (a) The Borrower shall not and shall not permit any of its Subsidiaries to incur, 
+ Key:Section 6.01
+ Value:Section 6.01.   Indebtedness.  (a) The Borrower shall not and shall not permit any of its Subsidiaries to incur, 
 
 create, assume or permit to exist, directly or indirectly, any Indebtedness, except that the Borrower and its Subsidiaries 
 
@@ -5161,8 +5160,8 @@ pay commitment fees will not be treated as Indebtedness.
 
  
  
-MySectionsIndexed
- Section 6.02. Liens. The Borrower shall not permit any of its Subsidiaries to, create, incur, assume or suffer 
+ Key:Section 6.02
+ Value:Section 6.02. Liens. The Borrower shall not permit any of its Subsidiaries to, create, incur, assume or suffer 
 
 to exist, any Lien on or with respect to any of its Property or revenues, whether now owned or hereafter acquired, 
 
@@ -5319,8 +5318,8 @@ Section 7.01(h).
 
  
  
-MySectionsIndexed
- Section 6.03. Sale And Leasebacks. The Borrower shall not, and shall not permit any of its Subsidiaries to, 
+ Key:Section 6.03
+ Value:Section 6.03. Sale And Leasebacks. The Borrower shall not, and shall not permit any of its Subsidiaries to, 
 
 create, incur, assume or suffer to exist, any obligations as lessee for the rental or hire of real or personal Property in 
 
@@ -5330,8 +5329,8 @@ by Section 6.01(a).
 
  
  
-MySectionsIndexed
- Section 6.04.   Mergers, Consolidations, Etc. The Borrower shall not, and shall not permit any of its 
+ Key:Section 6.04
+ Value:Section 6.04.   Mergers, Consolidations, Etc. The Borrower shall not, and shall not permit any of its 
 
 Subsidiaries to, merge into or consolidate with any Person or permit any Person to merge into it, or sell, transfer, lease 
 
@@ -5370,15 +5369,14 @@ liquidation).
 
  
  
-MySectionsIndexed
- Section 6.05.    [Reserved].  
+ Key:Section 6.05
+ Value:Section 6.05.    [Reserved].  
 
  
  
-MySectionsIndexed
-  
-MySectionsIndexed
- Section 6.07;  
+ Key:Section 6.06 
+ Key:Section 6.07
+ Value:Section 6.07;  
 
  
 (vi)        Indebtedness represented by Capitalized Lease Obligations, mortgage financings, purchase 
@@ -5760,8 +5758,8 @@ of the business of the Loan Parties or any of their Subsidiaries;
 (m)          Dispositions constituting an Investment or Restricted Payment and permitted under Section 6.07 or 
 
  
-MySectionsIndexed
- Section 6.08, respectively;  
+ Key:Section 6.08
+ Value:Section 6.08, respectively;  
 
  
 (n)          the termination or unwinding of any interest rate swap agreements and other interest rate hedging 
@@ -5869,8 +5867,8 @@ Stock.
 
  
  
-MySectionsIndexed
- Section 6.09.   Payment Restrictions Affecting Subsidiaries; No Further Negative Pledges.  Neither the 
+ Key:Section 6.09
+ Value:Section 6.09.   Payment Restrictions Affecting Subsidiaries; No Further Negative Pledges.  Neither the 
 
 Borrower, nor any Subsidiary of the Borrower  
 
@@ -5919,15 +5917,15 @@ any other Loan Document.
 
  
  
-MySectionsIndexed
- Section 6.10.  Conduct of Business.  The Borrower shall not, and shall not permit any of its Subsidiaries to, 
+ Key:Section 6.10
+ Value:Section 6.10.  Conduct of Business.  The Borrower shall not, and shall not permit any of its Subsidiaries to, 
 
 conduct any business other than the Company Business, or any other business substantially related thereto.  
 
  
  
-MySectionsIndexed
- Section 6.11.  Prepayments, Etc., of Indebtedness.   The Borrower shall not, and shall not permit any of its 
+ Key:Section 6.11
+ Value:Section 6.11.  Prepayments, Etc., of Indebtedness.   The Borrower shall not, and shall not permit any of its 
 
 Subsidiaries to, optionally prepay, redeem, purchase, defease or otherwise satisfy in any manner, or make any payment 
 
@@ -5955,8 +5953,8 @@ Non-Recourse Indebtedness.
 
  
  
-MySectionsIndexed
- Section 6.12.   Amendments to Organizational Documents and Material Contracts.   The Borrower shall not, 
+ Key:Section 6.12
+ Value:Section 6.12.   Amendments to Organizational Documents and Material Contracts.   The Borrower shall not, 
 
 and shall not permit any of its Subsidiaries to (i) amend its Organizational Documents or (ii) (a) cancel or terminate 
 
@@ -5974,8 +5972,8 @@ or any Lender.
 
  
  
-MySectionsIndexed
- Section 6.13.   Accounting Changes; Fiscal Year.   The Borrower shall not, and shall not permit any of its 
+ Key:Section 6.13
+ Value:Section 6.13.   Accounting Changes; Fiscal Year.   The Borrower shall not, and shall not permit any of its 
 
 Subsidiaries to, make or permit any change in (x) accounting policies or reporting practices, except as required to 
 
@@ -5983,8 +5981,8 @@ comply with GAAP (subject to Section 1.02) or (y) its or any of its Subsidiary’s
 
  
  
-MySectionsIndexed
- Section 6.14.   Speculative Transactions.   The Borrower shall not, and shall not permit any of its Subsidiaries 
+ Key:Section 6.14
+ Value:Section 6.14.   Speculative Transactions.   The Borrower shall not, and shall not permit any of its Subsidiaries 
 
 to, enter into any Hedge Agreement except (x) Hedge Agreements entered into to hedge or mitigate risks in respect of 
 
@@ -5998,8 +5996,8 @@ Subsidiary in the ordinary course of its business.
 
  
  
-MySectionsIndexed
- Section 6.15.   Use of Proceeds.   The Borrower shall not, and shall not permit its Subsidiaries to, directly or 
+ Key:Section 6.15
+ Value:Section 6.15.   Use of Proceeds.   The Borrower shall not, and shall not permit its Subsidiaries to, directly or 
 
 indirectly, use the proceeds of the Loans (x) for any purpose other than as specified in Section 3.17 nor (y) for any 
 
@@ -6009,8 +6007,8 @@ other similar legislation in other jurisdictions.
 
  
  
-MySectionsIndexed
- Section 6.16.   Transactions with Affiliates; Intercompany Transactions.   (a) The Borrower shall not, and 
+ Key:Section 6.16
+ Value:Section 6.16.   Transactions with Affiliates; Intercompany Transactions.   (a) The Borrower shall not, and 
 
 shall not permit any of its Subsidiaries to, sell, lease or otherwise transfer any property or assets to, or purchase, lease 
 
@@ -6075,8 +6073,8 @@ Closing Date, which in each case have been disclosed to the Lenders prior to the
 
  
  
-MySectionsIndexed
- Section 6.17.    Financial Covenants.  
+ Key:Section 6.16 
+ Value:Section 6.17.    Financial Covenants.  
 
  
 (a)          Consolidated Leverage Ratio. The Borrower shall not permit the Consolidated Leverage Ratio as of 
@@ -6246,8 +6244,8 @@ and Cash Equivalents in Accounts subject to a Control Agreement to be less than 
  
  
  
-MySectionsIndexed
- Section 7.01.   Events of Default; Remedies with Respect to the Loan Obligations.   If any of the following 
+ Key:Section 7.01 
+ Value:Section 7.01.   Events of Default; Remedies with Respect to the Loan Obligations.   If any of the following 
 
 events (herein called “Events of Default”) shall have occurred (whatever the reason for such Event of Default and 
 
@@ -6433,8 +6431,8 @@ expressly waived.
  
  
  
-MySectionsIndexed
- Section 8.01. Appointment. Each Lender hereby irrevocably designates and appoints (x) U.S. Bank as the 
+ Key:Section 8.01 
+ Value:Section 8.01. Appointment. Each Lender hereby irrevocably designates and appoints (x) U.S. Bank as the 
 
 administrative agent of such Lender under this Agreement and the other Loan Documents to which the Administrative 
 
@@ -6837,8 +6835,8 @@ require the consent of the Administrative Agent and/or the Collateral Agent, as 
  
  
  
-MySectionsIndexed
- Section 9.01.   Amendments and Waivers.   Neither this Agreement nor any other Loan Document (other than 
+ Key:Section 9.01
+ Value:Section 9.01.   Amendments and Waivers.   Neither this Agreement nor any other Loan Document (other than 
 
 the Warrants), nor any terms hereof or thereof may be waived, amended, supplemented or modified, and no consent 
 
@@ -6877,8 +6875,8 @@ this Section 9.01; and provided further that no
 amendment, waiver, supplement or modification shall, unless in writing and signed by the applicable Agent, affect 
 
 the rights or duties of any Agent. Further, notwithstanding anything to the contrary contained in this  
-MySectionsIndexed
- Section 9.02, if 
+ Key:Section 9.02
+ Value:Section 9.02, if 
 
 following the Closing Date, the Administrative Agent and any Loan Party shall have jointly identified an obvious 
 
@@ -6974,8 +6972,8 @@ material non-public information: (1) the Loan Documents and (2) notification of 
 
  
  
-MySectionsIndexed
- Section 9.03.   No Waiver; Cumulative Remedies.   No failure to exercise and no delay in exercising, on the 
+ Key:Section 9.03
+ Value:Section 9.03.   No Waiver; Cumulative Remedies.   No failure to exercise and no delay in exercising, on the 
 
 part of the Administrative Agent, the Collateral Agent or any Lender, any right, remedy, power or privilege hereunder 
 
@@ -6989,8 +6987,8 @@ exclusive of any rights, remedies, powers and privileges provided by law.
 
  
  
-MySectionsIndexed
- Section 9.04.   Survival of Representations and Warranties.   All representations and warranties made 
+ Key:Section 9.04
+ Value:Section 9.04.   Survival of Representations and Warranties.   All representations and warranties made 
 
 hereunder, in the other Loan Documents and in any document, certificate or written statement delivered pursuant 
 
@@ -7000,8 +6998,8 @@ Loans hereunder.
 
  
  
-MySectionsIndexed
- Section 9.05.   Payment of Expenses, Indemnification, Taxes and Costs.   (a) The Borrower will pay (i) all 
+ Key:Section 9.05
+ Value:Section 9.05.   Payment of Expenses, Indemnification, Taxes and Costs.   (a) The Borrower will pay (i) all 
 
 reasonable documented out-of-pocket expenses of the Lenders and the Agents as may be incurred in connection with 
 
@@ -7107,8 +7105,8 @@ Loan Document.
 
  
  
-MySectionsIndexed
- Section 9.06.   Successors and Assigns; Assignments; Participations.   (a) This Agreement shall be binding 
+ Key:Section 9.06
+ Value:Section 9.06.   Successors and Assigns; Assignments; Participations.   (a) This Agreement shall be binding 
 
 upon and inure to the benefit of the Borrower, the Lenders, the Administrative Agent, the Collateral Agent and their 
 
@@ -7309,8 +7307,8 @@ participating Lenders)), Section 2.12, Section 2.13, Section 2.14, Section 2.15 
 if it were a Lender and had acquired its interest by assignment pursuant to subsection (b) of this Section. To the extent 
 
 permitted by law, each participant shall also be entitled to the benefits of  
-MySectionsIndexed
- Section 9.07 as though it were a Lender, 
+ Key:Section 9.07
+ Value:Section 9.07 as though it were a Lender, 
 
 provided that such participant agrees to be subject to Section 2.09 as though it were a Lender. Each Lender that sells 
 
@@ -7399,8 +7397,8 @@ Agent, such Lender and their respective Affiliates may have.
 
  
  
-MySectionsIndexed
- Section 9.08.   Counterparts.   This Agreement may be executed in any number of counterparts and by 
+ Key:Section 9.08
+ Value:Section 9.08.   Counterparts.   This Agreement may be executed in any number of counterparts and by 
 
 different parties hereto in separate counterparts, each of which when so executed shall be deemed to be an original 
 
@@ -7408,8 +7406,8 @@ and all of which taken together shall constitute one and the same agreement.
 
  
  
-MySectionsIndexed
- Section 9.09.   Severability.   Any provision of this Agreement which is prohibited or unenforceable in any 
+ Key:Section 9.09
+ Value:Section 9.09.   Severability.   Any provision of this Agreement which is prohibited or unenforceable in any 
 
 jurisdiction shall, as to such jurisdiction, be ineffective to the extent of such prohibition or unenforceability without 
 
@@ -7419,17 +7417,16 @@ invalidate or render unenforceable such provision in any other jurisdiction.
 
  
  
-MySectionsIndexed
- Section 9.10.   Governing Law.   This Agreement is governed by and shall be construed in accordance with 
+ Key:Section 9.10
+ Value:Section 9.10.   Governing Law.   This Agreement is governed by and shall be construed in accordance with 
 
 the laws of the State of New York.  
 
  
  
-MySectionsIndexed
-  
-MySectionsIndexed
- Section 9.12); (y) all Borrower Materials marked “PUBLIC” are 
+ Key:Section 9.11 
+ Key:Section 9.12
+ Value:Section 9.12); (y) all Borrower Materials marked “PUBLIC” are 
 
 permitted to be made available through a portion of the Platform designated as “Public Investor” (or with a similar 
 
@@ -8124,8 +8121,8 @@ disclosure by the Borrower.
 
  
  
-MySectionsIndexed
- Section 9.13.   Replacement of Lenders.   If the Borrower is entitled to replace a Lender pursuant to the 
+ Key:Section 9.13
+ Value:Section 9.13.   Replacement of Lenders.   If the Borrower is entitled to replace a Lender pursuant to the 
 
 provisions of Section 2.16 or any Lender fails to consent to a requested amendment, waiver or modification to any 
 
@@ -8178,8 +8175,8 @@ delegation cease to apply.
 
  
  
-MySectionsIndexed
- Section 9.14.   USA PATRIOT Act.   Each Lender that is subject to the Act and the Administrative Agent (for 
+ Key:Section 9.14
+ Value:Section 9.14.   USA PATRIOT Act.   Each Lender that is subject to the Act and the Administrative Agent (for 
 
 itself and not on behalf of any Lender) hereby notifies the Borrower that pursuant to the requirements of the Act, it is 
 
@@ -8200,8 +8197,8 @@ accordance with the Act.
 
  
  
-MySectionsIndexed
- Section 9.15.   Effectiveness.   This Agreement shall become effective upon execution and delivery of a 
+ Key:Section 9.14 
+ Value:Section 9.15.   Effectiveness.   This Agreement shall become effective upon execution and delivery of a 
 
 counterpart hereof by each of the parties hereto.  
 
