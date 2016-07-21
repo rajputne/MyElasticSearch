@@ -12,6 +12,7 @@ import java.io.IOException;
 import java.math.BigDecimal;
 import java.net.InetAddress;
 import java.text.DecimalFormat;
+import java.util.Set;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import org.apache.tika.Tika;
@@ -143,7 +144,6 @@ public class MainClass {
         int skipFirstArtcile = 0;
         JSONObject obj = new JSONObject();
 
-        obj.put("Author", "App Shah");
         for (String article : splitContectsAccordingToArticles) {
             if (skipFirstArtcile != 0) {
                 DecimalFormat f = new DecimalFormat("##.00");
@@ -156,10 +156,11 @@ public class MainClass {
 
                 int end = article.indexOf(sectionEnd);
                 while (end != -1) {
-                    sectionOutput.append(" \nMySectionsIndexed\n ");
+                    sectionStart = section + " " + f.format(toBeTruncated-0.01);
+                    sectionOutput.append(" \n Key:" + sectionStart);
                     if (start < end) {
-                        sectionOutput.append(article.substring(start, end));
-                        obj.put(sectionStart, article.substring(start, end));
+                        sectionOutput.append("\n Value:" + article.substring(start, end));
+                        obj.put(sectionStart, article.substring(start, end).replaceAll("\\r\\n|\\r|\\n", " "));
                     }
 
                     start = end;
@@ -172,15 +173,16 @@ public class MainClass {
                     System.out.println("End section index " + end);
                 }
                 end = article.length() - 1;
-                sectionOutput.append(" \nMySectionsIndexed\n ");
-                sectionOutput.append(article.substring(start, end));
-                obj.put(sectionStart, article.substring(start, end));
+                sectionOutput.append(" \n Key:" + sectionStart);
+                sectionOutput.append(" \n Value:" + article.substring(start, end));
+                obj.put(sectionStart, article.substring(start, end).replaceAll("\\r\\n|\\r|\\n", " "));
                 DecimalFormat ff = new DecimalFormat("##");
                 toBeTruncated = Double.valueOf(ff.format(toBeTruncated)) + 1.01;
             }
             skipFirstArtcile++;
 
         }
+        
         try {
             FileWriter file = new FileWriter("TableOfIndex.txt");
             file.write(tocOutput.toString());
@@ -190,16 +192,16 @@ public class MainClass {
             e.printStackTrace();
         }
         try {
-            FileWriter file = new FileWriter("ContextsArticles.txt");
+            FileWriter file = new FileWriter("Contract1_JSONFile.json");
             file.write(obj.toString());
             file.flush();
             file.close();
         } catch (IOException e) {
             e.printStackTrace();
         }
-        
+
         try {
-            FileWriter file = new FileWriter("ContextsArticlesTest.txt");
+            FileWriter file = new FileWriter("Contract1_KeyValueSections.txt");
             file.write(sectionOutput.toString());
             file.flush();
             file.close();
