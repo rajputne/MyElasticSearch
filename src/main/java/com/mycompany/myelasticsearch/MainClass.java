@@ -41,7 +41,7 @@ public class MainClass {
         // TODO code application logic here
         Tika tika = new Tika();
 
-        String fileEntry = "C:\\Contract\\Contract3.pdf";
+        String fileEntry = "C:\\Contract\\Contract4.pdf";
         String filetype = tika.detect(fileEntry);
         System.out.println("FileType " + filetype);
         BodyContentHandler handler = new BodyContentHandler(-1);
@@ -61,6 +61,7 @@ public class MainClass {
         try {
             pdfparser.parse(inputstream, handler, metadata, pcontext);
         } catch (IOException ex) {
+            
             Logger.getLogger(MainClass.class.getName()).log(Level.SEVERE, null, ex);
         } catch (SAXException ex) {
             Logger.getLogger(MainClass.class.getName()).log(Level.SEVERE, null, ex);
@@ -73,7 +74,7 @@ public class MainClass {
         //getting the content of the document
         docText = handler.toString().replaceAll("(/[^\\da-zA-Z.]/)", "");
         // outputArray = docText.split("Article|Section|Borrower|Agents");
-
+        Stanford.getSentence(docText);
         //int definedTermsStart = docText.indexOf("ARTICLE 1");
         int definedTermsEnd = docText.indexOf("SCHEDULES");
 
@@ -181,8 +182,10 @@ public class MainClass {
                     obj.put(sectionStart, article.substring(start, end).replaceAll("\\r\\n|\\r|\\n", " "));
                 } catch (Exception e) {
                     //What if Article has No Sections
-                    String sectionArticle="ARTICLE";
-                    
+                    String numberOnly= article.replaceAll("[^0-9]", "").substring(0,1);
+                    String sectionArticle="ARTICLE "+numberOnly;
+                    sectionOutput.append(" \n Value:" + article);
+                    obj.put(sectionArticle, article);
 
                     System.out.println(e.getMessage());
                 }

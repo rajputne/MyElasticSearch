@@ -66,7 +66,7 @@ public class Stanford {
         }
         try {
 
-            FileWriter file = new FileWriter("Sentences.txt");
+            FileWriter file = new FileWriter("Contract4_Sentences.txt");
             file.write(sent.toString());
             file.flush();
             file.close();
