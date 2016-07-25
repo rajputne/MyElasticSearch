@@ -70,7 +70,7 @@ public class Elastic {
 
     }
 
-    public static Map<String,Object> getDocument(PrintWriter out, Client client, String index, String type, String id) {
+    public static Map<String,Object> getDocument(Client client, String index, String type, String id) {
 
         GetResponse getResponse = client.prepareGet(index, type, id)
                 .execute()

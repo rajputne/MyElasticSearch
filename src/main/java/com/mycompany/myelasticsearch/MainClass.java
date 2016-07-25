@@ -12,6 +12,7 @@ import java.io.IOException;
 import java.math.BigDecimal;
 import java.net.InetAddress;
 import java.text.DecimalFormat;
+import java.util.Date;
 import java.util.Set;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -25,6 +26,8 @@ import org.apache.tika.metadata.Metadata;
 import org.apache.tika.parser.ParseContext;
 import org.apache.tika.parser.pdf.PDFParser;
 import org.apache.tika.sax.BodyContentHandler;
+import org.elasticsearch.node.Node;
+import static org.elasticsearch.node.NodeBuilder.nodeBuilder;
 import org.json.JSONObject;
 
 /**
@@ -41,7 +44,31 @@ public class MainClass {
         // TODO code application logic here
         Tika tika = new Tika();
 
-        String fileEntry = "C:\\Contract\\Contract4.pdf";
+        Node node = nodeBuilder().node();
+        Client client = node.client();
+
+        client.prepareIndex("kodcucom", "article", "1")
+                .setSource(Elastic.putJsonDocument("ElasticSearch: Java",
+                        "ElasticSeach provides Java API, thus it executes all operations "
+                        + "asynchronously by using client object..",
+                        new Date(),
+                        new String[]{"elasticsearch"},
+                        "Hüseyin Akdoğan")).execute().actionGet();
+
+        client.prepareIndex("kodcucom", "article", "2")
+                .setSource(Elastic.putJsonDocument("Java Web Application and ElasticSearch (Video)",
+                        "Today, here I am for exemplifying the usage of ElasticSearch which is an open source, distributed "
+                        + "and scalable full text search engine and a data analysis tool in a Java web application.",
+                        new Date(),
+                        new String[]{"elasticsearch"},
+                        "Hüseyin Akdoğan")).execute().actionGet();
+        Elastic.getDocument(client, "kodcucom", "article", "1");
+        
+        
+        
+   
+
+        String fileEntry = "C:\\Contract\\Contract1.pdf";
         String filetype = tika.detect(fileEntry);
         System.out.println("FileType " + filetype);
         BodyContentHandler handler = new BodyContentHandler(-1);
@@ -61,7 +88,7 @@ public class MainClass {
         try {
             pdfparser.parse(inputstream, handler, metadata, pcontext);
         } catch (IOException ex) {
-            
+
             Logger.getLogger(MainClass.class.getName()).log(Level.SEVERE, null, ex);
         } catch (SAXException ex) {
             Logger.getLogger(MainClass.class.getName()).log(Level.SEVERE, null, ex);
@@ -73,13 +100,11 @@ public class MainClass {
         String out[];
         //getting the content of the document
         docText = handler.toString().replaceAll("(/[^\\da-zA-Z.]/)", "");
-        // outputArray = docText.split("Article|Section|Borrower|Agents");
+        
+        
         Stanford.getSentence(docText);
-        //int definedTermsStart = docText.indexOf("ARTICLE 1");
+        
         int definedTermsEnd = docText.indexOf("SCHEDULES");
-
-        //int start = docText.indexOf('“', definedTermsStart);
-        //int end = docText.indexOf('”', start);
         String toc = docText.substring(0, definedTermsEnd);
         String c = docText.substring(definedTermsEnd);
         System.out.println("Table of content" + toc);
@@ -182,8 +207,8 @@ public class MainClass {
                     obj.put(sectionStart, article.substring(start, end).replaceAll("\\r\\n|\\r|\\n", " "));
                 } catch (Exception e) {
                     //What if Article has No Sections
-                    String numberOnly= article.replaceAll("[^0-9]", "").substring(0,1);
-                    String sectionArticle="ARTICLE "+numberOnly;
+                    String numberOnly = article.replaceAll("[^0-9]", "").substring(0, 1);
+                    String sectionArticle = "ARTICLE " + numberOnly;
                     sectionOutput.append(" \n Value:" + article);
                     obj.put(sectionArticle, article);
 
@@ -194,9 +219,15 @@ public class MainClass {
                 toBeTruncated = Double.valueOf(ff.format(toBeTruncated)) + 1.01;
             }
             skipFirstArtcile++;
-
         }
 
+        client.prepareIndex("contract", "section", "1")
+                .setSource(Elastic.putDefinedTerms(obj)).execute().actionGet();
+        
+        
+        Elastic.getDocument(client, "contract", "section", "1");
+        
+        Elastic.searchDocument(client, c, toc, c, c);
         try {
             FileWriter file = new FileWriter("TableOfIndex.txt");
             file.write(tocOutput.toString());
@@ -222,7 +253,7 @@ public class MainClass {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
+        node.close();
     }
 
 }
