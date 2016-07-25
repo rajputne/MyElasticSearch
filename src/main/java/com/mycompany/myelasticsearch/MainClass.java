@@ -43,31 +43,6 @@ public class MainClass {
 
         // TODO code application logic here
         Tika tika = new Tika();
-
-        Node node = nodeBuilder().node();
-        Client client = node.client();
-
-        client.prepareIndex("kodcucom", "article", "1")
-                .setSource(Elastic.putJsonDocument("ElasticSearch: Java",
-                        "ElasticSeach provides Java API, thus it executes all operations "
-                        + "asynchronously by using client object..",
-                        new Date(),
-                        new String[]{"elasticsearch"},
-                        "Hüseyin Akdoğan")).execute().actionGet();
-
-        client.prepareIndex("kodcucom", "article", "2")
-                .setSource(Elastic.putJsonDocument("Java Web Application and ElasticSearch (Video)",
-                        "Today, here I am for exemplifying the usage of ElasticSearch which is an open source, distributed "
-                        + "and scalable full text search engine and a data analysis tool in a Java web application.",
-                        new Date(),
-                        new String[]{"elasticsearch"},
-                        "Hüseyin Akdoğan")).execute().actionGet();
-        Elastic.getDocument(client, "kodcucom", "article", "1");
-        
-        
-        
-   
-
         String fileEntry = "C:\\Contract\\Contract1.pdf";
         String filetype = tika.detect(fileEntry);
         System.out.println("FileType " + filetype);
@@ -76,6 +51,8 @@ public class MainClass {
         Metadata metadata = new Metadata();
 
         FileInputStream inputstream = null;
+        Node node = nodeBuilder().node();
+        Client client = node.client();
         try {
             inputstream = new FileInputStream(fileEntry);
         } catch (FileNotFoundException ex) {
@@ -100,13 +77,56 @@ public class MainClass {
         String out[];
         //getting the content of the document
         docText = handler.toString().replaceAll("(/[^\\da-zA-Z.]/)", "");
+         client.prepareIndex("kodcucom", "article", "1")
+              .setSource(Elastic.putJsonDocument("ElasticSearch: Java",
+                                         "ElasticSeach provides Java API, thus it executes all operations " +
+                                          "asynchronously by using client object..",
+                                         new Date(),
+                                         new String[]{"elasticsearch"},
+                                         "Hüseyin Akdoğan")).execute().actionGet();
         
-        
+        client.prepareIndex("kodcucom", "article", "2")
+              .setSource(Elastic.putJsonDocument("Java Web Application and ElasticSearch (Video)",
+                                         "Today, here I am for exemplifying the usage of ElasticSearch which is an open source, distributed " +
+                                         "and scalable full text search engine and a data analysis tool in a Java web application.",
+                                         new Date(),
+                                         new String[]{"elasticsearch"},
+                                         "Hüseyin Akdoğan")).execute().actionGet();
+        try {
+            DocumentReader.parseString(docText, client);
+            Elastic.getDocument(client, "definedterms", "term", "1");
+            Elastic.searchDocument(client,"definedterms","term","Borrowing","Lenders");
+            
+            Elastic.searchDocument(client, "kodcucom", "article", "title", "ElasticSearch");
+            
+        } catch (FileNotFoundException ex) {
+            Logger.getLogger(MainClass.class.getName()).log(Level.SEVERE, null, ex);
+        }
         Stanford.getSentence(docText);
         
         int definedTermsEnd = docText.indexOf("SCHEDULES");
         String toc = docText.substring(0, definedTermsEnd);
         String c = docText.substring(definedTermsEnd);
+        
+        
+
+        client.prepareIndex("kodcucom", "article", "1")
+                .setSource(Elastic.putJsonDocument("ElasticSearch: Java",
+                        "ElasticSeach provides Java API, thus it executes all operations "
+                        + "asynchronously by using client object..",
+                        new Date(),
+                        new String[]{"elasticsearch"},
+                        "Hüseyin Akdoğan")).execute().actionGet();
+
+        client.prepareIndex("kodcucom", "article", "2")
+                .setSource(Elastic.putJsonDocument("Java Web Application and ElasticSearch (Video)",
+                        "Today, here I am for exemplifying the usage of ElasticSearch which is an open source, distributed "
+                        + "and scalable full text search engine and a data analysis tool in a Java web application.",
+                        new Date(),
+                        new String[]{"elasticsearch"},
+                        "Hüseyin Akdoğan")).execute().actionGet();
+        Elastic.getDocument(client, "kodcucom", "article", "1");
+        
         System.out.println("Table of content" + toc);
         System.out.println("--------------------------------");
         System.out.println("content" + c);
@@ -227,7 +247,7 @@ public class MainClass {
         
         Elastic.getDocument(client, "contract", "section", "1");
         
-        Elastic.searchDocument(client, c, toc, c, c);
+        Elastic.searchDocument(client,"contract","section","1","Section");
         try {
             FileWriter file = new FileWriter("TableOfIndex.txt");
             file.write(tocOutput.toString());
